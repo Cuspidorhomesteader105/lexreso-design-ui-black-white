@@ -8,19 +8,19 @@ interface DashboardSidebarProps {
 const menuItems = [
     {
         block: 'Block 1',
-        items: ['Account', 'Setting', 'Billing', 'Subscribtion', 'Support', 'Заглушка 1.1', 'Заглушка 1.2']
+        items: ['Account', 'Setting', 'Billing', 'Subscribtion', 'Support', 'Placeholder 1.1', 'Placeholder 1.2']
     },
     {
         block: 'Block 2',
-        items: ['Services', 'usage limits', 'History', 'new order', 'Заглушка 2.1', 'Заглушка 2.2', 'Заглушка 2.3']
+        items: ['Services', 'usage limits', 'History', 'new order', 'Placeholder 2.1', 'Placeholder 2.2', 'Placeholder 2.3']
     },
     {
         block: 'Block 3',
-        items: ['Заглушка 3.1', 'Заглушка 3.2', 'Заглушка 3.3', 'Заглушка 3.4', 'Заглушка 3.5']
+        items: ['Placeholder 3.1', 'Placeholder 3.2', 'Placeholder 3.3', 'Placeholder 3.4', 'Placeholder 3.5']
     },
     {
         block: 'Block 4',
-        items: ['Exit', 'Danger', 'Заглушка 4.1', 'Заглушка 4.2']
+        items: ['Exit', 'Danger', 'Placeholder 4.1', 'Placeholder 4.2']
     }
 ];
 

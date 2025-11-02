@@ -13,38 +13,19 @@ export const Contact2: React.FC = () => {
 
           <div className="mt-8 space-y-3 text-base text-gray-700">
             <div>
-              <span className="font-semibold text-gray-900">Company:</span> LEX RESO LTD
+              <span className="font-semibold text-gray-900">Company:</span> Your Company Ltd
             </div>
             <div>
               <span className="font-semibold text-gray-900">Email:</span>{' '}
-              <a href="mailto:info@lexreso.com" className="text-gray-700 hover:text-black transition-colors">
-                info@lexreso.com
+              <a href="mailto:contact@example.com" className="text-gray-700 hover:text-black transition-colors">
+                contact@example.com
               </a>
             </div>
             <div>
               <span className="font-semibold text-gray-900">Phone:</span>{' '}
-              <a href="tel:+447922686485" className="text-gray-700 hover:text-black transition-colors">
-                +44 7922 686485
+              <a href="tel:+1234567890" className="text-gray-700 hover:text-black transition-colors">
+                +1 (234) 567-890
               </a>
-              {' '}(
-              <a
-                href="https://t.me/lexreso"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-black transition-colors"
-              >
-                Telegram
-              </a>
-              ,{' '}
-              <a
-                href="https://wa.me/447922686485"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-black transition-colors"
-              >
-                WhatsApp
-              </a>
-              )
             </div>
           </div>
         </div>

@@ -263,6 +263,22 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ---
 
+## ⚠️ Disclaimer
+
+**Demo Content Notice:**
+
+All images, placeholder text, example data, and demo content in this template are provided for **demonstration purposes only**.
+
+- **Images**: Sourced from Lorem Picsum and other placeholder image services
+- **Text Content**: Sample/placeholder text for demonstration
+- **Company Names & Contact Info**: Fictional examples only
+
+**No Rights Claimed**: The author and contributors make **no claim of ownership** over any demo content, images, or placeholder materials. All rights remain with their respective owners.
+
+**For Production Use**: Replace all demo content, images, contact information, and placeholder text with your own before deploying to production.
+
+---
+
 ## 🙏 Credits
 
 **Author**: [LEXRESO](https://lexreso.com)

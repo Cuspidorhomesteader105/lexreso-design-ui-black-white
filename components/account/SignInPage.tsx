@@ -20,12 +20,12 @@ export const SignInPage: React.FC<SignInPageProps> = ({ onSignUpClick, onForgotP
         <div className="flex items-center justify-center min-h-screen bg-gray-50">
             <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow">
                 <div className="text-center">
-                    <a href="#" className="inline-block mb-6 font-bold text-2xl tracking-wider">LEX RESO</a>
-                    <h2 className="text-2xl font-bold tracking-tight">Войдите в свой аккаунт</h2>
+                    <a href="#" className="inline-block mb-6 font-bold text-2xl tracking-wider">COMPANY</a>
+                    <h2 className="text-2xl font-bold tracking-tight">Sign in to your account</h2>
                 </div>
                 <form className="space-y-6" onSubmit={handleSubmit}>
                     <div>
-                        <label htmlFor="email-address" className="sr-only">Электронная почта</label>
+                        <label htmlFor="email-address" className="sr-only">Email address</label>
                         <input
                             id="email-address"
                             name="email"
@@ -33,11 +33,11 @@ export const SignInPage: React.FC<SignInPageProps> = ({ onSignUpClick, onForgotP
                             autoComplete="email"
                             required
                             className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-black focus:border-black focus:z-10 sm:text-sm"
-                            placeholder="Электронная почта"
+                            placeholder="Email address"
                         />
                     </div>
                     <div>
-                        <label htmlFor="password" className="sr-only">Пароль</label>
+                        <label htmlFor="password" className="sr-only">Password</label>
                         <input
                             id="password"
                             name="password"
@@ -45,20 +45,20 @@ export const SignInPage: React.FC<SignInPageProps> = ({ onSignUpClick, onForgotP
                             autoComplete="current-password"
                             required
                             className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-black focus:border-black focus:z-10 sm:text-sm"
-                            placeholder="Пароль"
+                            placeholder="Password"
                         />
                     </div>
-                    
+
                     <Button type="submit" className="w-full">
-                        Войти
+                        Sign In
                     </Button>
                 </form>
                 <div className="flex items-center justify-between text-sm">
                     <button onClick={onSignUpClick} className="font-medium text-black hover:underline">
-                        Зарегистрироваться
+                        Sign Up
                     </button>
                     <button onClick={onForgotPasswordClick} className="font-medium text-black hover:underline">
-                        Забыл пароль
+                        Forgot Password
                     </button>
                 </div>
             </div>

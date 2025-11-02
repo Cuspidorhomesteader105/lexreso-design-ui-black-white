@@ -64,8 +64,8 @@ export const BlogSection3: React.FC = () => {
     return (
         <div className="py-20">
             <div className="flex justify-between items-center mb-8">
-                <h2 className="text-3xl font-bold tracking-tight">Последние статьи блога</h2>
-                <Button variant="secondary">Наш блог &rarr;</Button>
+                <h2 className="text-3xl font-bold tracking-tight">Latest Blog Posts</h2>
+                <Button variant="secondary">View Blog &rarr;</Button>
             </div>
             <div className="flex space-x-8 -mx-4 px-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory">
                 {posts.map((post) => (

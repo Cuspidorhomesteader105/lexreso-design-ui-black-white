@@ -32,20 +32,20 @@ export const DashboardLayout: React.FC = () => {
                     <div className="flex items-center space-x-6">
                         <div className="flex items-center">
                              <CreditCard className="w-4 h-4 mr-2 text-gray-500" />
-                             <span>Баланс: <span className="font-semibold">$1,234.56</span></span>
+                             <span>Balance: <span className="font-semibold">$1,234.56</span></span>
                         </div>
                          <div className="flex items-center">
                              <Bell className="w-4 h-4 mr-2 text-gray-500" />
-                             <span>Уведомления: <span className="font-semibold">3</span></span>
+                             <span>Notifications: <span className="font-semibold">3</span></span>
                         </div>
                          <div className="flex items-center">
-                             <span className="font-semibold">Лимиты использования</span>
+                             <span className="font-semibold">Usage Limits</span>
                         </div>
                     </div>
                     <div className="flex items-center space-x-6">
                          <a href="#" className="flex items-center hover:text-black transition-colors text-gray-600">
                              <LifeBuoy className="w-4 h-4 mr-2" />
-                             <span>Написать в поддержку</span>
+                             <span>Contact Support</span>
                         </a>
                     </div>
                 </div>

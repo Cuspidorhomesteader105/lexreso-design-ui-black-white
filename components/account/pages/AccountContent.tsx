@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import { Button } from '../../ui/Button';
 
-const tabs = ['Профиль', 'Пароль', 'Уведомления', 'История платежей'];
+const tabs = ['Profile', 'Password', 'Notifications', 'Payment History'];
 
 export const AccountContent: React.FC = () => {
     const [activeTab, setActiveTab] = useState(tabs[0]);
 
     const renderTabContent = () => {
         switch (activeTab) {
-            case 'Профиль':
+            case 'Profile':
                 return <ProfileSettings />;
-            case 'Пароль':
+            case 'Password':
                  return <PasswordSettings />;
             default:
                 return (
                     <div className="text-center py-12 text-gray-500">
-                        <h3 className="text-lg font-medium">Содержимое для {activeTab}</h3>
-                        <p>Это заполнитель для настроек "{activeTab}".</p>
+                        <h3 className="text-lg font-medium">Content for {activeTab}</h3>
+                        <p>This is a placeholder for "{activeTab}" settings.</p>
                     </div>
                 );
         }
@@ -24,8 +24,8 @@ export const AccountContent: React.FC = () => {
 
     return (
         <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h1 className="text-2xl font-bold mb-2">Настройки аккаунта</h1>
-            <p className="text-gray-600 mb-6">Управляйте своим профилем, паролем и настройками уведомлений.</p>
+            <h1 className="text-2xl font-bold mb-2">Account Settings</h1>
+            <p className="text-gray-600 mb-6">Manage your profile, password, and notification preferences.</p>
             <div className="border-b border-gray-200">
                 <nav className="-mb-px flex space-x-8" aria-label="Tabs">
                     {tabs.map((tab) => (
@@ -55,20 +55,20 @@ const ProfileSettings = () => (
     <form className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
              <div>
-                <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">Имя</label>
-                <input type="text" name="first-name" id="first-name" defaultValue="Иван" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
+                <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">First name</label>
+                <input type="text" name="first-name" id="first-name" defaultValue="John" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
             </div>
             <div>
-                <label htmlFor="last-name" className="block text-sm font-medium text-gray-700">Фамилия</label>
-                <input type="text" name="last-name" id="last-name" defaultValue="Иванов" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
+                <label htmlFor="last-name" className="block text-sm font-medium text-gray-700">Last name</label>
+                <input type="text" name="last-name" id="last-name" defaultValue="Doe" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
             </div>
         </div>
         <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Электронная почта</label>
-            <input type="email" name="email" id="email" defaultValue="ivan.ivanov@example.com" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email address</label>
+            <input type="email" name="email" id="email" defaultValue="john.doe@example.com" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
         </div>
         <div className="pt-4 flex justify-end">
-            <Button type="submit">Сохранить изменения</Button>
+            <Button type="submit">Save changes</Button>
         </div>
     </form>
 );
@@ -76,19 +76,19 @@ const ProfileSettings = () => (
 const PasswordSettings = () => (
      <form className="space-y-6 max-w-lg">
         <div>
-            <label htmlFor="current-password" className="block text-sm font-medium text-gray-700">Текущий пароль</label>
+            <label htmlFor="current-password" className="block text-sm font-medium text-gray-700">Current password</label>
             <input type="password" name="current-password" id="current-password"  className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
         </div>
          <div>
-            <label htmlFor="new-password" className="block text-sm font-medium text-gray-700">Новый пароль</label>
+            <label htmlFor="new-password" className="block text-sm font-medium text-gray-700">New password</label>
             <input type="password" name="new-password" id="new-password"  className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
         </div>
          <div>
-            <label htmlFor="confirm-password" className="block text-sm font-medium text-gray-700">Подтвердите новый пароль</label>
+            <label htmlFor="confirm-password" className="block text-sm font-medium text-gray-700">Confirm new password</label>
             <input type="password" name="confirm-password" id="confirm-password"  className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-black focus:border-black sm:text-sm" />
         </div>
         <div className="pt-4 flex justify-end">
-            <Button type="submit">Обновить пароль</Button>
+            <Button type="submit">Update password</Button>
         </div>
     </form>
 );
